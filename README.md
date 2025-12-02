@@ -1,0 +1,31 @@
+# Advent of Code 2025 🎄
+
+This repository contains my Python solutions for the [Advent of Code 2025](https://adventofcode.com/2025) programming puzzles.
+
+## Running the solutions
+
+This project uses [uv](https://github.com/astral-sh/uv) as a package and virtual environment manager.
+The `uv run` command will automatically create a virtual environment and install dependencies on its first use.
+
+1. **Clone the repository**:
+
+```sh
+git clone https://github.com/benjaminrall/advent-of-code-2025.git
+cd advent-of-code-2025
+```
+
+2. **Navigate to the desired day's directory**:
+
+```sh
+cd day-1
+```
+
+3. **Run the desired script**:
+
+```sh
+uv run part1.py
+```
+
+## License
+
+This project is licensed under the **MIT License**. See the [`LICENSE`](./LICENSE) file for details.
