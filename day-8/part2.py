@@ -44,8 +44,9 @@ def solve(filename: str) -> int:
             lengths[circuits[a]] += lengths[circuits[b]]
             lengths[circuits[b]] = -1
             circuits = [c if c != circuits[b] else circuits[a] for c in circuits]
-        if lengths[circuits[a]] == len(points):            
+        if lengths[circuits[a]] == len(points):
             return points[a][0] * points[b][0]
+    return 0
 
 if __name__ == "__main__":
     print(f"Test solution: {solve('test.txt')}")
