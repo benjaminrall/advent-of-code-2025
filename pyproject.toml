@@ -7,4 +7,5 @@ requires-python = ">=3.13"
 dependencies = [
     "numpy>=2.3.5",
     "python-aoc>=0.1.6",
+    "scipy>=1.16.3",
 ]
